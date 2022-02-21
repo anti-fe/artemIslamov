@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <nav class="header-nav">
+                <a href="/" class="header-nav__logo">
+                    <img src="icon/logo.svg" alt="logo" class="logo__img">
+                </a>
+                <div class="header-nav__icons">
+                    <a href="/"><img src="icon/github.svg" alt="github" class="icons__github"></a>
+                    <a href="/"><img src="icon/twitter.svg" alt="twitter" class="icons__twitter"></a>
+                    <a href="/"><img src="icon/instagram.svg" alt="inst" class="icons__instagram"></a>
+                    <a href="/"><img src="icon/facebook.svg" alt="facebook" class="icons__facebook"></a>
+                </div>
+            </nav>
+            <section class="header-content">
+                <div class="header-content__text-block">
+                    <p class="text-block__top-title">Фрилансер</p>
+                    <h1 class="text-block__title">Артем Исламов</h1>
+                    <p class="text-block__descr">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
+                    <button class="text-block__btn btn">Бесплатная консультация</button>
+                </div>
+                <img src='img/hero-avatar.png' class="header-content__avatar">
+            </section>
+        </header>
+        <main class='main'>
+            <h2 class="main__title title">Со мной удобно работать</h2>
+            <div class="main-features-block">
+                <div class="main-features-block__card">
+                    <img src="icon/offer-img.svg" class="card__icon">
+                    <h3 class="card__name">По договору</h3>
+                    <p class="card__descr">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
+                </div>
+                <div class="main-features-block__card">
+                    <img src="icon/deadline-img.svg" class="card__icon">
+                    <h3 class="card__name">Точно в срок</h3>
+                    <p class="card__descr">В договоре прописана моя  ответственность за срок проекта. Если просрочу — плачу неустойку. </p>
+                </div>
+                <div class="main-features-block__card">
+                    <img src="icon/agreement-img.svg" class="card__icon">
+                    <h3 class="card__name">Ценник под вас</h3>
+                    <p class="card__descr">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</p>
+                </div>
+                <div class="main-features-block__card">
+                    <img src="icon/steps-img.svg" class="card__icon">
+                    <h3 class="card__name">Премежуточные итоги</h3>
+                    <p class="card__descr">Показываю работу поэтапно, а не в последий момент перед крайним сроком. </p>
+                </div>
+                <div class="main-features-block__card">
+                    <img src="icon/storage-img.svg" class="card__icon">
+                    <h3 class="card__name">Хостинг и домен </h3>
+                    <p class="card__descr">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
+                </div>
+                <div class="main-features-block__card">
+                    <img src="icon/conversation-img.svg" class="card__icon">
+                    <h3 class="card__name">Не брошу после сдачи</h3>
+                    <p class="card__descr">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
+                </div>
+            </div>
+        </main>
+        <section class="projects">
+            <h2 class="projects__title title">Последние проекты</h2>
+            <div class="projects-slider">
+                <img src="img/project-img.png" alt="project" class="projects-slider__img">
+                <div class="projects-slider__inf">
+                    <h3 class="inf__title">Сайт строительной фирмы "Велстрой"</h3>
+                    <div class="inf-main">
+                        <div class="inf-main__sections">
+                            <div class="sections__time inf-main__section">
+                                <img src="icon/time-icon.svg" alt="time" class="time__icon">
+                                <div class="time-inf">
+                                    <h4 class="time-inf__title mini-section__title">Сроки</h4>
+                                    <p class="time-inf__descr">4 рабочих дня</p>
+                                </div>
+                            </div>
+                            <div class="sections__cost inf-main__section">
+                                <img src="icon/cost-icon.svg" alt="cost" class="cost__icon">
+                                <div class="cost-inf">
+                                    <h4 class="cost-inf__title mini-section__title">Стоимость</h4>
+                                    <p class="cost-inf__descr">14 000 рублей</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inf-main__review">
+                            <img src="icon/feedback-icon.svg" alt="feedback" class="review__icon">
+                            <div class="review__inf">
+                                <h4 class="review__title mini-section__title">Отзыв клиента</h4>
+                                <p class="review__text">Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-slider__dots">
+                        <div class="dots__item dots__item_active"></div>
+                        <div class="dots__item"></div>
+                        <div class="dots__item"></div>
+                        <div class="dots__item"></div>
+                        <div class="dots__item"></div>
+                        <div class="dots__item"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <h2 class="contacts__title title">Свяжитесь со мной</h2>
+            <div class="contacts-body">
+                <form class="contacts-body__form">
+                    <h3 class="form__descr">Можете просто оставить заявку, я позвоню вам сегодня</h3>
+                    <div class="form__inputs">
+                        <div class="inputs-name inp-cont">
+                            <img src="icon/user-icon.svg" alt="user" class="input__icon name-icon">
+                            <input type="text" class="inputs-name__name input" placeholder="Ваше имя">
+                        </div>
+                        <div class="inputs-tel inp-cont">
+                            <img src="icon/phone-icon.svg" alt="tel" class="input__icon tel-icon">
+                            <input type="text" class="inputs-tel__tel input" placeholder="Ваш телефон">
+                        </div>
+                    </div>
+                    <button class="form__btn btn">Бесплатная консультация</button>
+                </form>
+                <div class="contact-body__inf">
+                    <div class="inf-tel inf__section">
+                        <h3 class="inf-tel__title els-title">Телефон</h3>
+                        <p class="inf-tel__text inf-text">+7 999 123 45 67</p>
+                    </div>
+                    <div class="inf-tel inf__section">
+                        <h3 class="inf-email__title els-title">Почта</h3>
+                        <p class="inf-email__text inf-text">ivanov@mail.ru</p>
+                    </div>
+                    <div class="inf-media inf__section">
+                        <h3 class="inf-media__title els-title">Соцсети</h3>
+                        <ul class="inf-media__links">
+                            <li class="links__social-media inf-text">t.me/ivanov</li>
+                            <li class="links__social-media inf-text">vk.me/ivanov</li>
+                            <li class="links__social-media inf-text">fb.me/ivanov</li>
+                        </ul>
+                    </div>
+                    <div class="inf__icons-media">
+                        <img src="icon/github.svg" alt="github" class="icons-media__item">
+                        <img src="icon/twitter.svg" alt="twitter" class="icons-media__item">
+                        <img src="icon/instagram.svg" alt="inst" class="icons-media__item">
+                        <img src="icon/facebook.svg" alt="facebook" class="icons-media__item">
+                    </div>
+                    <a href="/" class="inf__pol-conf">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
